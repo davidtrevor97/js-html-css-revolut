@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* UTILITIES */
+.flex{
+  display: flex;
+}
+.padding{
+  padding: 20px 30px;
+}
+.dis-none{
+  display: none;
+  position: absolute;
+  top: 8%;
+}
+.shadow{
+  box-shadow:1px 2px #a5adab;
+}
+/* STYLE */
+header{
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-between;
+  color: #a5adab;
+}
+ul{
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+}
+li:hover{
+  cursor: pointer;
+  color: black;
+}
+.h-left li img{
+  width: 70px;
+}
+.h-left{
+  text-transform: uppercase;
+  width: 350px;
+}
+.h-right{
+  width: 600px;
+}
+.azienda{
+  right: 16%;
+}
+.prodotti{
+  right: 11%;
+}
