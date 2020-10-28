@@ -1,6 +1,6 @@
 //set variabili
 vanish = $(".dis-none") ;
-clicked = $("li");
+clicked = $(".clicked");
 //codice
 clicked.click( function(){
   vanish.not( $(this).next(vanish) ).hide() ;

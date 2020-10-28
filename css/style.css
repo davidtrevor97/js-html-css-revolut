@@ -13,7 +13,7 @@
 .dis-none{
   display: none;
   position: absolute;
-  top: 10%;
+  top: 100%;
 }
 .shadow{
   box-shadow:1px 0.5px 0.5px 1px #a5adab;
@@ -23,10 +23,12 @@ header{
   font-family: 'Roboto', sans-serif;
   justify-content: space-between;
   color: #a5adab;
+  flex-wrap: wrap;
 }
 ul{
   justify-content: space-between;
   align-items: baseline;
+  position: relative;
 }
 li{
   list-style: none;
@@ -46,10 +48,10 @@ li:hover{
   width: 600px;
 }
 .azienda{
-  right: 16%;
+  right: 35%;
 }
 .prodotti{
-  right: 11%;
+  right: 22%;
 }
 button{
   background-color: #f95b77;
